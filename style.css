@@ -275,6 +275,15 @@ a{color:inherit}
   grid-template-columns: 1fr 1fr;
   gap: 14px;
 }
+
+#experience .card{
+  height: 100%;
+}
+
+#experience .grid-2{
+  margin-top: 8px;
+}
+
 @media (max-width: 900px){
   .grid-2{grid-template-columns:1fr}
 }
